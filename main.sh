@@ -1,6 +1,4 @@
- #! /bin/bash 
-
- 
+#! /bin/bash 
 
 #Validation - gets the arguments from the user input 
 
@@ -9,8 +7,6 @@
 #Output: if valid - sends the arguments to the relevant function. 
 
 #Output: else - sends an error message to the final output function. 
-
- 
 
 function valid() { 
 
@@ -52,17 +48,11 @@ done
 
 } 
 
- 
-
- 
-
 #Year - gets 1 argument(the year) from Valid function 
 
 #input: 1 argument(the year) from Valid function 
 
 #output: 1 argument - IsLeapYear 
-
- 
 
 function IsLeapYear (){ 
 
@@ -201,9 +191,6 @@ fi
 } 
 
  
-
- 
-
 #The final output 
 
 #input: 3 arguments(the year,the month, the day) from DaysCount function 
@@ -235,9 +222,6 @@ echo "And the total number of days that year was $(NumOfDays)"
 } 
 
  
-
- 
-
 function main() { 
 
 if valid; then 
